@@ -16,13 +16,13 @@ function execuçao(msg,tempo){
     })
     
 }
-// pra cappturar o erro usamos try cach
 
-async function executar(){ //async e usado no começo da function
+
+async function executar(){ 
     try{
-        const fase = await execuçao('fase 1',aleatorio(1,4)) //await antes de esxecutar a fuction ,precisa capturar o valor numa variavel
+        const fase = await execuçao('fase 1',aleatorio(1,4)) 
     console.log(fase)
-    const fase2 = await execuçao(2,aleatorio(1,4))
+    const fase2 = await execuçao(2 ,aleatorio(1,4))
     console.log(fase2)
     const fase3 = await execuçao('fase 3',aleatorio(1,4))
     console.log(fase3)

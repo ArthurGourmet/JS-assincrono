@@ -27,6 +27,6 @@ execuçao('frase1',aleatorio(1,4)).then(respota=>{
 }).then(resposta=>{
     console.log(resposta)
 }).catch((msg)=>{
-    console.log(msg)
+    console.log(msg) // aqui onde o recject vem parar
 })
 
